@@ -2,7 +2,7 @@
 
 namespace Scn\HydratorProperties\Property;
 
-final class TextValue implements PropertyInterface
+final class StringValue implements PropertyInterface
 {
     public static function get(string $propertyName): \Closure
     {

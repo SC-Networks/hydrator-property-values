@@ -4,7 +4,7 @@ namespace Scn\HydratorProperties\Property;
 
 use Scn\HydratorProperties\TestCase;
 
-class TextValueTest extends TestCase
+class StringValueTest extends TestCase
 {
     public function testEverything()
     {
@@ -26,13 +26,13 @@ class TextValueTest extends TestCase
             }
         };
 
-        $set = TextValue::set('value');
+        $set = StringValue::set('value');
         $set = $set->bindTo($dummy, $dummy);
         static::assertInstanceOf(\Closure::class, $set);
 
         $set($testValue, 'value', $dummy);
 
-        $get = TextValue::get('value');
+        $get = StringValue::get('value');
         $get = $get->bindTo($dummy, $dummy);
         static::assertInstanceOf(\Closure::class, $get);
         static::assertIsString($dummy->getValue());
@@ -58,13 +58,13 @@ class TextValueTest extends TestCase
             }
         };
 
-        $set = TextValue::set('value');
+        $set = StringValue::set('value');
         $set = $set->bindTo($dummy, $dummy);
         static::assertInstanceOf(\Closure::class, $set);
 
         $set($testValue, 'value', $dummy);
 
-        $get = TextValue::get('value');
+        $get = StringValue::get('value');
         $get = $get->bindTo($dummy, $dummy);
         static::assertInstanceOf(\Closure::class, $get);
         static::assertIsString($dummy->getValue());

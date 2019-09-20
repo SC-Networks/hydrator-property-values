@@ -1,12 +1,12 @@
 # Hydrator Properties
 
-## Basic Properties for SCN/Hydrator
+## Basic Property Values for SCN/Hydrator
 
 ### Installation
 
 Via Composer:
 ```
-$ composer require scn/hydratorproperties
+$ composer require scn/hydrator-property-values
 ```
 
 ## Testing
