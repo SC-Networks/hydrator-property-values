@@ -1,6 +1,6 @@
 <?php
 
-namespace Scn\HydratorProperties;
+namespace Scn\HydratorPropertyValues;
 
 class TestCase extends \PHPUnit\Framework\TestCase
 {

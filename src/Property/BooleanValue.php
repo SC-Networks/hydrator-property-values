@@ -1,6 +1,6 @@
 <?php
 
-namespace Scn\HydratorProperties\Property;
+namespace Scn\HydratorPropertyValues\Property;
 
 final class BooleanValue implements PropertyInterface
 {

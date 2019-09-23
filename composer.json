@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Scn\\HydratorProperties\\": "src/"
+            "Scn\\HydratorPropertyValues\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Scn\\HydratorProperties\\": "tests/"
+            "Scn\\HydratorPropertyValues\\": "tests/"
         }
     },
     "scripts": {

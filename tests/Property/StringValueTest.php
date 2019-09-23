@@ -1,8 +1,8 @@
 <?php
 
-namespace Scn\HydratorProperties\Property;
+namespace Scn\HydratorPropertyValues\Property;
 
-use Scn\HydratorProperties\TestCase;
+use Scn\HydratorPropertyValues\TestCase;
 
 class StringValueTest extends TestCase
 {
