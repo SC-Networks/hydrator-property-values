@@ -1,5 +1,5 @@
 {
-    "name": "scn/hydratorproperties",
+    "name": "scn/hydrator-property-values",
     "description": "Basic Properties for SCN/Hydrator",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.3",
+        "php": "^7.2",
         "scn/hydrator": "^2.0"
     },
     "require-dev": {
