@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "scn/hydrator": "^2.0"
+        "scn/hydrator": "^2.0|^3.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.3"
